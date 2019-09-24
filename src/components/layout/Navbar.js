@@ -1,6 +1,10 @@
 import React,{Component} from 'react';
 
 class Navbar extends Component{
+    static defaultProps ={
+        title:"github finder",
+        icon:"fa fa-github"
+    }
 
     render(){
 
