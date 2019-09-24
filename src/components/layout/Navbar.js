@@ -5,9 +5,12 @@ class Navbar extends Component{
     render(){
 
         return (
-            <div >
-                <h1>navbar</h1>
-            </div>
+            <nav  className="navbar bg-primary">
+                <h1>
+                    <i className="fa fa-github"/>
+                     Nav Bar
+                </h1>
+            </nav>
         );
     }
 
