@@ -7,8 +7,7 @@ class Navbar extends Component{
         return (
             <nav  className="navbar bg-primary">
                 <h1>
-                    <i className="fa fa-github"/>
-                     Nav Bar
+                    <i className={this.props.icon}/> {this.props.title}
                 </h1>
             </nav>
         );
