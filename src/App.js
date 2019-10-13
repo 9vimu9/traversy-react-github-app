@@ -9,11 +9,10 @@ class App extends Component{
 
       return (
           <div className="App">
-              <Navbar
-                  title="Git Hub Finder"
-                  icon="fa fa-github"
-              />
-              <Users/>
+              <Navbar />
+              <div className="container">
+                  <Users/>
+              </div>
           </div>
       );
   }
